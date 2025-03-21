@@ -11,7 +11,7 @@ This tool automates the process of verifying insurance eligibility for patients 
 ## Links
 - [pVerify API Documentation](https://pverify.com/api-documentation/)
 - [pVerify Payer List](https://pverify.com/payer-list/)
-- [pVerify Cost Calculator](https://pverify.com/cost-calculator/)
+- [pVerify Cost Calculator](https://docs.google.com/spreadsheets/d/1YNJ-GKqILvrFeaFD969Txb1CK0GqmyCgpg2xWQFXIK0/edit?gid=0#gid=0)
 
 ## Steps
 1. Create a .env file in the root directory and cp the data found in [Bitwarden -> Portal Aggregator -> pVerify -> notes]
