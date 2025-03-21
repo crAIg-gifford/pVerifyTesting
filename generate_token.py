@@ -8,6 +8,7 @@ load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 client_secret = os.getenv("CLIENT_SECRET")
 
+
 def generate_token():
     url = "https://api.pverify.com/Token"
     headers = {"Content-Type": "application/x-www-form-urlencoded"}

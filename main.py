@@ -61,15 +61,20 @@ def format_date(value):
     return value.strftime('%m/%d/%Y') if not pd.isna(value) else None
 
 
-def export_response(response, row_index, eligibility_type, payer_name, subscriber_id):
+def export_response(
+    response, row_index, eligibility_type, payer_name, subscriber_id
+):
     """
     Export API response to a JSON file in the data/output directory.
     """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    # Clean payer name to be filesystem-friendly
-    safe_payer_name = "".join(c for c in payer_name if c.isalnum() or c in (' ', '-', '_')).strip()
-    filename = f"../../data/output/eligibility_response_{eligibility_type}_{safe_payer_name}_{subscriber_id}_{row_index}_{timestamp}.json"
-    
+    safe_payer_name = "".join(
+        c for c in payer_name if c.isalnum() or c in (' ', '-', '_')
+    ).strip()
+    filename = (
+        f"../../data/output/eligibility_response_{eligibility_type}_"
+        f"{safe_payer_name}_{subscriber_id}_{row_index}_{timestamp}.json"
+    )
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     
     with open(filename, 'w') as f:
@@ -94,7 +99,9 @@ def process_patient_data(row):
             "dob": format_date(row['Subscriber DOB']),
             "memberID": str(row['Subscriber ID'])
         },
-        "isSubscriberPatient": True if str(row['isSubPat']).upper() == "TRUE" else False,
+        "isSubscriberPatient": (
+            True if str(row['isSubPat']).upper() == "TRUE" else False
+        ),
         "doS_StartDate": "05/25/2025",
         "doS_EndDate": "05/25/2025",
         "PracticeTypeCode": "86",
@@ -114,7 +121,10 @@ def process_patient_data(row):
 
 
 def main():
-    df = pd.read_excel('../../data/input/test_patients.xlsx', dtype={"pVerify ID": str})
+    df = pd.read_excel(
+        '../../data/input/test_patients.xlsx', 
+        dtype={"pVerify ID": str}
+    )
     # Process and submit data
     for index, row in df.iterrows():
         print(f"Processing row {row}")
@@ -135,6 +145,7 @@ def main():
             str(row['Payer Name']),
             str(row['Subscriber ID'])
         )
+
 
 if __name__ == "__main__":
     main()
