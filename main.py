@@ -71,9 +71,11 @@ def export_response(
     safe_payer_name = "".join(
         c for c in payer_name if c.isalnum() or c in (' ', '-', '_')
     ).strip()
-    filename = (
-        f"../../data/output/eligibility_response_{eligibility_type}_"
-        f"{safe_payer_name}_{subscriber_id}_{row_index}_{timestamp}.json"
+    filename = os.path.join(
+        'data', 'output',
+        f"eligibility_response_{eligibility_type}_"
+        f"{safe_payer_name}_{subscriber_id}_"
+        f"{row_index}_{timestamp}.json"
     )
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     
@@ -122,7 +124,7 @@ def process_patient_data(row):
 
 def main():
     df = pd.read_excel(
-        '../../data/input/test_patients.xlsx', 
+        os.path.join('data', 'input', 'test_patients.xlsx'),
         dtype={"pVerify ID": str}
     )
     # Process and submit data
