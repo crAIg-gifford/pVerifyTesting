@@ -30,7 +30,7 @@ def make_request(method, eligibility_type, payload):
     elif eligibility_type == "Medical":
         endpoint = "EligibilitySummary"
     url = f"{API_BASE_URL}{endpoint}"
-    print(url)
+    print(f"URL: {url}")
     try:
         if method == "GET":
             response = requests.get(url, headers=HEADERS)
@@ -42,7 +42,6 @@ def make_request(method, eligibility_type, payload):
                 data=json.dumps(payload)
             )
 
-            print(HEADERS)
         response.raise_for_status()
         return response.json()
     except RequestException as error:
@@ -106,7 +105,6 @@ def process_patient_data(row):
         ),
         "doS_StartDate": "05/25/2025",
         "doS_EndDate": "05/25/2025",
-        "PracticeTypeCode": "86",
         "Location": "TA",
         "IncludeHtmlResponse": True
     }
