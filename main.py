@@ -35,7 +35,6 @@ def make_request(method, eligibility_type, payload):
         if method == "GET":
             response = requests.get(url, headers=HEADERS)
         elif method == "POST":
-            # response = requests.post(url, json=payload, headers=HEADERS)
             response = requests.post(
                 url,
                 headers=HEADERS,
@@ -66,6 +65,9 @@ def export_response(
     """
     Export API response to a JSON file in the data/output directory.
     """
+    if response.get("error"):
+        print(f"Error: {response.get('error')}")
+        return
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_payer_name = "".join(
         c for c in payer_name if c.isalnum() or c in (' ', '-', '_')
@@ -87,6 +89,7 @@ def process_patient_data(row):
     """
     Process individual patient row data into required payload format.
     """
+
     payload = {
         "payerCode": str(row['pVerify ID']),
         "payerName": str(row['Payer Name']),
@@ -103,8 +106,9 @@ def process_patient_data(row):
         "isSubscriberPatient": (
             True if str(row['isSubPat']).upper() == "TRUE" else False
         ),
-        "doS_StartDate": "05/25/2025",
-        "doS_EndDate": "05/25/2025",
+        "doS_StartDate": f"{datetime.now().strftime('%m/%d/%Y')}",
+        "doS_EndDate": f"{datetime.now().strftime('%m/%d/%Y')}",
+        "PracticeTypeCode": "86" if row['Type'] == "Dental" else "3",
         "Location": "TA",
         "IncludeHtmlResponse": True
     }
@@ -116,7 +120,7 @@ def process_patient_data(row):
             "lastName": str(row['Patient Last']),
             "dob": format_date(row['Patient DOB'])
         }
-
+    return payload
     return payload
 
 
@@ -125,16 +129,23 @@ def main():
         os.path.join('data', 'input', 'test_patients.xlsx'),
         dtype={"pVerify ID": str}
     )
+
+    my_results = []
     # Process and submit data
     for index, row in df.iterrows():
-        print(f"Processing row {row}")
-        print(f"Index: {index}, Type: {row['Type']}")
+        print(
+            f"Processing row {index}: {row['Type']}, {row['Payer Name']}, "
+            f"{row['Subscriber ID']}"
+        )
         payload = process_patient_data(row)
         print("\nProcessed Patient Data:")
         print(json.dumps(payload, indent=4))
         # API call
         response = post_data(row['Type'], payload)
-
+        if response.get("error"):
+            my_results.append("Error")
+        else:
+            my_results.append("Success")
         print("\nAPI Response:")
         print(json.dumps(response, indent=4))
         # Export response to JSON file with payer name and subscriber ID
@@ -145,6 +156,7 @@ def main():
             str(row['Payer Name']),
             str(row['Subscriber ID'])
         )
+    print(f"Results: {my_results}")
 
 
 if __name__ == "__main__":
