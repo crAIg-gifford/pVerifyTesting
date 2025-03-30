@@ -121,7 +121,6 @@ def process_patient_data(row):
             "dob": format_date(row['Patient DOB'])
         }
     return payload
-    return payload
 
 
 def main():
