@@ -9,15 +9,15 @@ from requests.exceptions import RequestException
 # Load environment variables
 load_dotenv()
 
-pVERIFY_API_BASE_URL = os.getenv("pVERIFY_API_BASE_URL")
-pVERIFY_BEARER_TOKEN = os.getenv("pVERIFY_BEARER_TOKEN")
-pVERIFY_CLIENT_ID = os.getenv("pVERIFY_CLIENT_ID")
-pVERIFY_CONTENT_TYPE = os.getenv("pVERIFY_CONTENT_TYPE")
+API_BASE_URL = os.getenv("API_BASE_URL")
+BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+CLIENT_ID = os.getenv("CLIENT_ID")
+CONTENT_TYPE = os.getenv("CONTENT_TYPE")
 
 HEADERS = {
-    "Authorization": f"Bearer {pVERIFY_BEARER_TOKEN}",
-    "Client-API-Id": f"{pVERIFY_CLIENT_ID}",
-    "Content-Type": f"{pVERIFY_CONTENT_TYPE}",
+    "Authorization": f"Bearer {BEARER_TOKEN}",
+    "Client-API-Id": f"{CLIENT_ID}",
+    "Content-Type": f"{CONTENT_TYPE}",
 }
 
 
@@ -29,7 +29,7 @@ def make_request(method, eligibility_type, payload):
         endpoint = "DentalEligibilitySummary"
     elif eligibility_type == "Medical":
         endpoint = "EligibilitySummary"
-    url = f"{pVERIFY_API_BASE_URL}{endpoint}"
+    url = f"{API_BASE_URL}{endpoint}"
     print(f"URL: {url}")
     try:
         if method == "GET":
