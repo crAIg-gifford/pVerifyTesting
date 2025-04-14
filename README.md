@@ -15,10 +15,9 @@ This tool automates the process of verifying insurance eligibility for patients 
 
 ## Steps
 1. Create a .env file in the root directory and cp the data found in [Bitwarden -> Portal Aggregator -> pVerify -> notes]
-2. Download the [test_patients.xlsx](https://docs.google.com/spreadsheets/d/1keBz9R08m72Ox0506GAJUlb8zeGlcOy_/edit?gid=1356734240#gid=1356734240) file from Google Drive
+2. Move the test_patients.xlsx file from the template folder to the data/input folder
 3. Modify the file to include the patient data you want to verify (make sure to reference the correct payer code via pVerify's payer list)
-4. Place the test_patients.xlsx in the data/input folder
 5. Generate a token with the generate_token.py script
 6. Update the BEARER_TOKEN in the .env file with the new access token
 7. Run the main.py script
-8. Output will be in the data/output folder# pVerifyTesting
+8. Output JSON files will be in the data/output folder

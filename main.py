@@ -9,10 +9,10 @@ from requests.exceptions import RequestException
 # Load environment variables
 load_dotenv()
 
-API_BASE_URL = os.getenv("API_BASE_URL")
-BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-CLIENT_ID = os.getenv("CLIENT_ID")
-CONTENT_TYPE = os.getenv("CONTENT_TYPE")
+API_BASE_URL = os.getenv("pVERIFY_API_BASE_URL")
+BEARER_TOKEN = os.getenv("pVERIFY_BEARER_TOKEN")
+CLIENT_ID = os.getenv("pVERIFY_CLIENT_ID")
+CONTENT_TYPE = os.getenv("pVERIFY_CONTENT_TYPE")
 
 HEADERS = {
     "Authorization": f"Bearer {BEARER_TOKEN}",
@@ -91,7 +91,7 @@ def process_patient_data(row):
     """
 
     payload = {
-        "payerCode": str(row['pVerify ID']),
+        "payerCode": str(row['PayerID']),
         "payerName": str(row['Payer Name']),
         "provider": {
             "lastName": str(row['Provider']),
@@ -103,30 +103,23 @@ def process_patient_data(row):
             "dob": format_date(row['Subscriber DOB']),
             "memberID": str(row['Subscriber ID'])
         },
-        "isSubscriberPatient": (
-            True if str(row['isSubPat']).upper() == "TRUE" else False
-        ),
+        "isSubscriberPatient": "true",
         "doS_StartDate": f"{datetime.now().strftime('%m/%d/%Y')}",
         "doS_EndDate": f"{datetime.now().strftime('%m/%d/%Y')}",
-        "PracticeTypeCode": "86" if row['Type'] == "Dental" else "3",
         "Location": "TA",
         "IncludeHtmlResponse": True
     }
 
-    # Add dependent info if the patient is different from subscriber
-    if not pd.isna(row.get('Patient First')):
-        payload["dependent"] = {
-            "firstName": str(row['Patient First']),
-            "lastName": str(row['Patient Last']),
-            "dob": format_date(row['Patient DOB'])
-        }
+    # Search the pVerify website and determine the PracticeTypeCode
+    payload["PracticeTypeCode"] = "3"
+
     return payload
 
 
 def main():
     df = pd.read_excel(
         os.path.join('data', 'input', 'test_patients.xlsx'),
-        dtype={"pVerify ID": str}
+        dtype={"PayerID": str}
     )
 
     my_results = []
