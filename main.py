@@ -111,7 +111,7 @@ def process_patient_data(row):
     }
 
     # Search the pVerify website and determine the PracticeTypeCode
-    payload["PracticeTypeCode"] = "3"
+    payload["PracticeTypeCode"] = "21"
 
     return payload
 
