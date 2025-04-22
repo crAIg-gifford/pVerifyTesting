@@ -109,7 +109,7 @@ def process_directory(directory_path: str) -> List[Payer]:
 
 def main():
     # Process all JSON files in the output directory
-    output_dir = 'data/output'
+    output_dir = 'data/output_pverify'
     payers = process_directory(output_dir)
     
     # Print results

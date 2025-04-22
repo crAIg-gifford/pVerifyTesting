@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "senderId": "STEDI",
+        "submitterId": "117151744",
+        "applicationMode": "production",
+        "traceId": "01JRTWTVG3VPH9B3Q44JQRGE6C",
+        "outboundTraceId": "01JRTWTVG3VPH9B3Q44JQRGE6C"
+    },
+    "controlNumber": "613311953",
+    "reassociationKey": "613311953",
+    "tradingPartnerServiceId": "CMS",
+    "provider": {
+        "providerName": "Northeast health Services, LLC",
+        "entityIdentifier": "Provider",
+        "entityType": "Non-Person Entity",
+        "npi": "1225067481",
+        "aaaErrors": [
+            {
+                "field": "AAA",
+                "code": "41",
+                "description": "Authorization/Access Restrictions",
+                "followupAction": "Please Correct and Resubmit",
+                "location": "Loop 2100B",
+                "possibleResolutions": "- Enrollment issue with the vendor or provider's tax ID.\n- Issue with payer-assigned login ID.\n- Incorrect/missing portal payer credentials."
+            }
+        ]
+    },
+    "payer": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "name": "CMS",
+        "payorIdentification": "CMS"
+    },
+    "errors": [
+        {
+            "field": "AAA",
+            "code": "41",
+            "description": "Authorization/Access Restrictions",
+            "followupAction": "Please Correct and Resubmit",
+            "location": "Loop 2100B",
+            "possibleResolutions": "- Enrollment issue with the vendor or provider's tax ID.\n- Issue with payer-assigned login ID.\n- Incorrect/missing portal payer credentials."
+        }
+    ],
+    "x12": "ISA*00*          *00*          *ZZ*STEDI          *01*117151744      *250414*1536*^*00501*613311953*0*P*|~GS*HB*STEDI*117151744*20250414*153617*1*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*01JRTWTVG3VPH9B3Q44JQRGE6C*20250414*153617~HL*1**20*1~NM1*PR*2*CMS*****PI*CMS~HL*2*1*21*0~NM1*1P*2*Northeast health Services, LLC*****XX*1225067481~AAA*N**41*C~SE*8*0001~GE*1*1~IEA*1*613311953~",
+    "eligibilitySearchId": "019635cd-6e03-7a90-9b13-31bafd7d781e"
+}

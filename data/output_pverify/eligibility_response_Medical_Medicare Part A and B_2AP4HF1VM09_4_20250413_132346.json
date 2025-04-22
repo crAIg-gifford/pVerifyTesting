@@ -1,0 +1,96 @@
+{
+    "RequestID": 170183214,
+    "APIResponseCode": "0",
+    "APIResponseMessage": "Error Reason : Invalid/Missing Subscriber/Insured Name \r\nFollow-up Action : Please Correct and Resubmit \r\n",
+    "EDIErrorMessage": "<strong>Error Reason :</strong> Invalid/Missing Subscriber/Insured Name \r\n<strong>Follow-up Action :</strong> Please Correct and Resubmit \r\n",
+    "FollowUpAction": "Please Correct and Resubmit",
+    "PossibleResolution": "Send valid patient name or remove name and verify inquiry, if payer allows with out name.",
+    "IsPayerBackOffice": false,
+    "ProcessedWithError": true,
+    "ErrorCode": "73",
+    "ErrorDescription": "Invalid/Missing Subscriber/Insured Name",
+    "PverifyPayerCode": "00007",
+    "PayerName": "Medicare Part A and B",
+    "ClientPayerName": null,
+    "VerificationType": "Subscriber Verification",
+    "DOS": "04/13/2025 - 04/13/2025",
+    "ExceptionNotes": null,
+    "IsHMOPlan": false,
+    "AddtionalInfo": null,
+    "Location": "TA",
+    "ReferrenceId": null,
+    "InternalId": null,
+    "CustomerId": null,
+    "Notes": null,
+    "ResultPracticeType": "DME (12)",
+    "AreAllSTCsProcessed": true,
+    "STCsStatusMessage": "",
+    "IsProviderInNetwork": null,
+    "RecursiveType": null,
+    "RecursiveRequestId": 0,
+    "RecursiveAPIResponseCode": null,
+    "RecursiveAPIResponseMessage": null,
+    "RecursiveProcessedWithError": false,
+    "IsSkipped": false,
+    "DetailsURL": null,
+    "IsPriorAuthRequired": null,
+    "ProcessRealtime": false,
+    "DemographicInfo": {
+        "Subscriber": {
+            "Address1": null,
+            "Address2": null,
+            "City": null,
+            "CommunicationNumber": null,
+            "Date": [
+                {
+                    "Date": "04/13/2025",
+                    "Type": "Eligibility"
+                }
+            ],
+            "DOB_R": "11/09/1957",
+            "Firstname": "EUGENE",
+            "Gender_R": "",
+            "Identification": [
+                {
+                    "Code": "ECKER",
+                    "Type": "Lastname_R",
+                    "Name": null
+                },
+                {
+                    "Code": "EUGENE",
+                    "Type": "Firstname",
+                    "Name": null
+                },
+                {
+                    "Code": "2AP4HF1VM09",
+                    "Type": "Member ID",
+                    "Name": null
+                }
+            ],
+            "Lastname_R": "ECKER",
+            "Middlename": null,
+            "State": null,
+            "Suffix": null,
+            "Zip": null,
+            "MilitaryPersonnelInfo": null,
+            "FullName": "EUGENE ECKER"
+        },
+        "Dependent": null
+    },
+    "OtherPayerInfo": null,
+    "IPADetails": null,
+    "PlanCoverageSummary": null,
+    "PCPAuthInfoSummary": null,
+    "HBPC_Deductible_OOP_Summary": null,
+    "MedicareInfoSummary": null,
+    "MiscellaneousInfoSummary": null,
+    "DMESummary": null,
+    "IsCptInfoUpdated": false,
+    "PreventiveServices": null,
+    "ServiceDetails": null,
+    "DisclaimerMessage": "Summary Objects information is parsed information from the payer and is not guaranteed.Look at the ServiceDetails object for the details from the payer.",
+    "EligibilityResult": null,
+    "NonEDIResultPath": null,
+    "DentalInfo": null,
+    "AppliedBusinessRuleIDs": null
+}

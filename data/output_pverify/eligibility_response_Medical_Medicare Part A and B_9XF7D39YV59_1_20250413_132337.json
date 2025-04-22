@@ -1,0 +1,2730 @@
+{
+    "RequestID": 170183209,
+    "APIResponseCode": "0",
+    "APIResponseMessage": "Processed",
+    "EDIErrorMessage": null,
+    "FollowUpAction": null,
+    "PossibleResolution": null,
+    "IsPayerBackOffice": false,
+    "ProcessedWithError": false,
+    "ErrorCode": null,
+    "ErrorDescription": null,
+    "PverifyPayerCode": "00007",
+    "PayerName": "Medicare Part A and B",
+    "ClientPayerName": null,
+    "VerificationType": "Subscriber Verification",
+    "DOS": "04/13/2025 - 04/13/2025",
+    "ExceptionNotes": null,
+    "IsHMOPlan": false,
+    "AddtionalInfo": "\r\nOther or Additional Payer Policy Type :  Qualified Medicare Beneficiary",
+    "Location": "TA",
+    "ReferrenceId": null,
+    "InternalId": null,
+    "CustomerId": null,
+    "Notes": null,
+    "ResultPracticeType": "DME (12)",
+    "AreAllSTCsProcessed": true,
+    "STCsStatusMessage": "",
+    "IsProviderInNetwork": null,
+    "RecursiveType": null,
+    "RecursiveRequestId": 0,
+    "RecursiveAPIResponseCode": null,
+    "RecursiveAPIResponseMessage": null,
+    "RecursiveProcessedWithError": false,
+    "IsSkipped": false,
+    "DetailsURL": null,
+    "IsPriorAuthRequired": null,
+    "ProcessRealtime": false,
+    "DemographicInfo": {
+        "Subscriber": {
+            "Address1": "6 WATER ST",
+            "Address2": "FL 1",
+            "City": "DANVERS",
+            "CommunicationNumber": null,
+            "Date": [
+                {
+                    "Date": "04/13/2025",
+                    "Type": "Eligibility"
+                }
+            ],
+            "DOB_R": "05/22/1996",
+            "Firstname": "JUSTIN",
+            "Gender_R": "Male",
+            "Identification": [
+                {
+                    "Code": "ANDERSON",
+                    "Type": "Lastname_R",
+                    "Name": null
+                },
+                {
+                    "Code": "JUSTIN",
+                    "Type": "Firstname",
+                    "Name": null
+                },
+                {
+                    "Code": "9XF7D39YV59",
+                    "Type": "Member ID",
+                    "Name": null
+                }
+            ],
+            "Lastname_R": "ANDERSON",
+            "Middlename": "R",
+            "State": "MA",
+            "Suffix": null,
+            "Zip": "019233726",
+            "MilitaryPersonnelInfo": null,
+            "FullName": "JUSTIN ANDERSON"
+        },
+        "Dependent": null
+    },
+    "OtherPayerInfo": {
+        "PrimaryPayer": null,
+        "Payer": null,
+        "SecondaryPayer": null,
+        "PlanSponsor": null,
+        "IndependentPhysiciansAssociation_IPA": null,
+        "WorkersCompensation": null,
+        "ContractedServiceProvider": null,
+        "IPAStartDate": null,
+        "IPAEndDate": null,
+        "IPAAddress": null,
+        "IPACity": null,
+        "IPAState": null,
+        "IPAZipCode": null,
+        "IPAPhoneNumber": null,
+        "OtherPayerMemberID": null,
+        "COB_StartDate": null,
+        "COB_EndDate": null
+    },
+    "IPADetails": null,
+    "PlanCoverageSummary": {
+        "Status": "Active",
+        "EffectiveDate": "11/01/2024",
+        "ExpiryDate": null,
+        "PlanName": "Medicare Part A,Medicare Part B",
+        "SelfFundedPlan": null,
+        "PolicyType": "Medicare Part A,Qualified Medicare Beneficiary,Medicare Part B",
+        "GroupNumber": null,
+        "GroupName": null,
+        "PlanNetworkID": "076",
+        "PlanNetworkName": null,
+        "SubscriberRelationship": null,
+        "PlanNumber": "S4802",
+        "HRAorHSALimitationsRemaining": null,
+        "LastUpdatedDateOfEDI": null,
+        "PatientGender": "Male",
+        "BenefitPlanCode": null,
+        "IssueDate": null
+    },
+    "PCPAuthInfoSummary": null,
+    "HBPC_Deductible_OOP_Summary": {
+        "IndividualDeductibleInNet": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "IndividualDeductibleOutNet": null,
+        "IndividualDeductibleRemainingInNet": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "IndividualDeductibleRemainingOutNet": null,
+        "FamilyDeductibleInNet": null,
+        "FamilyDeductibleOutNet": null,
+        "FamilyDeductibleRemainingInNet": null,
+        "FamilyDeductibleRemainingOutNet": null,
+        "IndividualOOP_InNet": null,
+        "IndividualOOP_OutNet": null,
+        "IndividualOOPRemainingInNet": null,
+        "IndividualOOPRemainingOutNet": null,
+        "FamilyOOPInNet": null,
+        "FamilyOOPOutNet": null,
+        "FamilyOOPRemainingInNet": null,
+        "FamilyOOPRemainingOutNet": null
+    },
+    "MedicareInfoSummary": {
+        "Part_A_EffectiveDate": "11/01/2024",
+        "Part_B_EffectiveDate": "11/01/2024",
+        "MedicareCoInsurance": {
+            "Value": "0%",
+            "Notes": null
+        },
+        "PT_SLP_CapAmount": {
+            "Value": "$2410.00",
+            "Notes": "For PT and SLP services combined"
+        },
+        "PT_SLP_UsedAmount": null,
+        "OT_CapAmount": {
+            "Value": "$2410.00",
+            "Notes": "For OT services"
+        },
+        "OT_UsedAmount": null,
+        "Part_A_Deductible": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "Part_A_Deductible_Remaining": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "Part_B_Deductible": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "Part_B_Deductible_Remaining": {
+            "Value": "$0.00",
+            "Notes": null
+        },
+        "AdvantagePayerName": null,
+        "AdvantagePolicyType": null,
+        "AdvantageCOBStartDate": null,
+        "AdvantageCOBEndDate": null,
+        "AdvantagePayerPhoneNumber": null,
+        "HospiceQty": null,
+        "HospiceStartDate": null,
+        "HospiceEndDate": null,
+        "HomeHealthCareStartDate": null,
+        "HomeHealthCareEndDate": null,
+        "PharmacyPayerName": "WELLCARE PRESCRIPTION INSURANCE, INC.",
+        "PharmacyPayerPlanNumber": "S4802",
+        "PharmacyPayerPlanNetworkID": "076",
+        "SkilledNursingCareStartDate": null,
+        "SkilledNursingCareEndDate": null,
+        "WCAutoInjuryLiabilityPayerName": null,
+        "WCAutoInjuryLiabilityPolicyType": null,
+        "WCAutoInjuryLiabilityCOBStartDate": null,
+        "WCAutoInjuryLiabilityCOBEndDate": null,
+        "QMBPolicyType": "MA QMB PLAN",
+        "BIN": "004336",
+        "PCN": "MEDDADV"
+    },
+    "MiscellaneousInfoSummary": null,
+    "DMESummary": null,
+    "IsCptInfoUpdated": false,
+    "PreventiveServices": null,
+    "ServiceDetails": [
+        {
+            "ServiceName": "Others",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Other or Additional Payor",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Coordination of Benefits"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Coordination of Benefits Start Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": "MA QMB PLAN",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Adjunctive Dental Services",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Alcoholism",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Chiropractic",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Consultation",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Dental Accident",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Dental Crowns",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Diagnostic Dental",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Diagnostic Lab",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Diagnostic Medical",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Dialysis",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Drug Addiction",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Durable Medical Equipment",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Durable Medical Equipment Purchase",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Durable Medical Equipment Rental",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Emergency Services",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Endodontics",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Health Benefit Plan Coverage",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Deductible",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Episode",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Episode",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Exceeded",
+                            "TotalNumberOfPeriods": "0",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Not Exceeded",
+                            "TotalNumberOfPeriods": "60",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Day",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Exceeded",
+                            "TotalNumberOfPeriods": "60",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Not Exceeded",
+                            "TotalNumberOfPeriods": "90",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Episode",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Remaining",
+                            "TotalNumberOfPeriods": "60",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Day",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Remaining",
+                            "TotalNumberOfPeriods": "30",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Reserve",
+                    "CoverageLevel": null,
+                    "Date": [],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": "Days",
+                    "Quantity": "60",
+                    "TimePeriodQualifier": "Lifetime",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Reserve",
+                    "CoverageLevel": null,
+                    "Date": [],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": "Days",
+                    "Quantity": "60",
+                    "TimePeriodQualifier": "Lifetime Remaining",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Reserve",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Day",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Deductible",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART B",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Calendar Year",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Insurance",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": "0",
+                    "PlanCoverageDescription": "MEDICARE PART B",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Visit",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Home Health Care",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospice",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Ambulatory Surgical",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Emergency Accident",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Emergency Medical",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Inpatient",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Outpatient",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Hospital - Room and Board",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Immunizations",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "04/13/2025",
+                            "Type": "Status"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Infertility",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Long Term Care",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Non-Covered",
+                    "CoverageLevel": null,
+                    "Date": [],
+                    "Identifications": [],
+                    "InsuranceType": null,
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Maternity",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Maxillofacial Prosthetics",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Obstetrical",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Obstetrical/Gynecological",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Oral Surgery",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Orthodontics",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Periodontics",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Pharmacy",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [],
+                    "Identifications": [],
+                    "InsuranceType": null,
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Other or Additional Payor",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Benefit"
+                        }
+                    ],
+                    "Identifications": [
+                        {
+                            "Code": "S4802",
+                            "Type": "Plan Number",
+                            "Name": null
+                        },
+                        {
+                            "Code": "076",
+                            "Type": "Plan Network ID Number",
+                            "Name": "WELLCARE CLASSIC"
+                        },
+                        {
+                            "Code": "WELLCARE CLASSIC",
+                            "Type": "Plan Group or Plan Network Name",
+                            "Name": null
+                        }
+                    ],
+                    "InsuranceType": "Other",
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [
+                        {
+                            "Address1": "7700 FORSYTH BLVD",
+                            "Address2": null,
+                            "City": "CLAYTON",
+                            "CommunicationNumber": [
+                                {
+                                    "Number": "8888889355",
+                                    "Type": "Telephone"
+                                },
+                                {
+                                    "Number": "WWW.WELLCARE.COM/PDP",
+                                    "Type": "Uniform Resource Locator (URL)"
+                                }
+                            ],
+                            "EntityType": "Payer",
+                            "Firstname": null,
+                            "IdentificationCode": null,
+                            "IdentificationType": null,
+                            "Lastname_R": "WELLCARE PRESCRIPTION INSURANCE, INC.",
+                            "Middlename": null,
+                            "State": "MO",
+                            "Suffix": null,
+                            "Zip": "63105",
+                            "ProviderTaxonomy": null
+                        }
+                    ],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Professional (Physician) Visit - Office",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Prosthodontics",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Psychiatric",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Psychiatric - Inpatient",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Psychiatric - Outpatient",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Psychiatric - Room and Board",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Psychotherapy",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Restorative",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Routine (Preventive) Dental",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Non-Covered",
+                    "CoverageLevel": null,
+                    "Date": [],
+                    "Identifications": [],
+                    "InsuranceType": null,
+                    "Message": [],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Skilled Nursing Care",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part A",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Episode",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Exceeded",
+                            "TotalNumberOfPeriods": "0",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Not Exceeded",
+                            "TotalNumberOfPeriods": "20",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Day",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Exceeded",
+                            "TotalNumberOfPeriods": "20",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Not Exceeded",
+                            "TotalNumberOfPeriods": "100",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Episode",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Remaining",
+                            "TotalNumberOfPeriods": "20",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                },
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Co-Payment",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "01/01/2025 - 12/31/2025",
+                            "Type": "Admission"
+                        },
+                        {
+                            "Date": "01/01/2025",
+                            "Type": "Admission Start Date"
+                        },
+                        {
+                            "Date": "12/31/2025",
+                            "Type": "Admission End Date"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Qualified Medicare Beneficiary",
+                    "Message": [],
+                    "MonetaryAmount": "0",
+                    "Percent": null,
+                    "PlanCoverageDescription": "MEDICARE PART A",
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": "Day",
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": [
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": "Days",
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Remaining",
+                            "TotalNumberOfPeriods": "80",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        },
+                        {
+                            "QuantityQualifier": null,
+                            "TotalQuantity": null,
+                            "MeasurementUnit": null,
+                            "MeasurementPeriod": null,
+                            "TimePeriodQualifier": "Episode",
+                            "TotalNumberOfPeriods": "1",
+                            "DeliveryFrequency": null,
+                            "DeliveryPatternTime": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ServiceName": "Smoking Cessation",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Substance Abuse",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Surgical",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Urgent Care",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        },
+        {
+            "ServiceName": "Vision (Optometry)",
+            "EligibilityDetails": [
+                {
+                    "AuthorizationOrCertificationRequired": null,
+                    "EligibilityOrBenefit": "Active Coverage",
+                    "CoverageLevel": null,
+                    "Date": [
+                        {
+                            "Date": "11/01/2024",
+                            "Type": "Plan"
+                        }
+                    ],
+                    "Identifications": [],
+                    "InsuranceType": "Medicare Part B",
+                    "Message": [
+                        "1-BENEFICIARY INSURED DUE TO DISABILITY"
+                    ],
+                    "MonetaryAmount": null,
+                    "Percent": null,
+                    "PlanCoverageDescription": null,
+                    "PlanNetworkIndicator": null,
+                    "QuantityQualifier": null,
+                    "Quantity": null,
+                    "TimePeriodQualifier": null,
+                    "Procedure": null,
+                    "PlaceOfService": null,
+                    "BenefitEntities": [],
+                    "HealthCareServiceDeliveries": []
+                }
+            ]
+        }
+    ],
+    "DisclaimerMessage": "Summary Objects information is parsed information from the payer and is not guaranteed.Look at the ServiceDetails object for the details from the payer.",
+    "EligibilityResult": null,
+    "NonEDIResultPath": null,
+    "DentalInfo": null,
+    "AppliedBusinessRuleIDs": null
+}

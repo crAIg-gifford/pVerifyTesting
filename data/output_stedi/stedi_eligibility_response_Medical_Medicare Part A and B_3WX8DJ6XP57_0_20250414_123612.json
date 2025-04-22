@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "senderId": "STEDI",
+        "submitterId": "117151744",
+        "applicationMode": "production",
+        "traceId": "01JRTWTNAENFN42AETB158DFPQ",
+        "outboundTraceId": "01JRTWTNAENFN42AETB158DFPQ"
+    },
+    "controlNumber": "117030581",
+    "reassociationKey": "117030581",
+    "tradingPartnerServiceId": "CMS",
+    "provider": {
+        "providerName": "Feramisco",
+        "entityIdentifier": "Provider",
+        "entityType": "Non-Person Entity",
+        "npi": "1043410871",
+        "aaaErrors": [
+            {
+                "field": "AAA",
+                "code": "41",
+                "description": "Authorization/Access Restrictions",
+                "followupAction": "Please Correct and Resubmit",
+                "location": "Loop 2100B",
+                "possibleResolutions": "- Enrollment issue with the vendor or provider's tax ID.\n- Issue with payer-assigned login ID.\n- Incorrect/missing portal payer credentials."
+            }
+        ]
+    },
+    "payer": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "name": "CMS",
+        "payorIdentification": "CMS"
+    },
+    "errors": [
+        {
+            "field": "AAA",
+            "code": "41",
+            "description": "Authorization/Access Restrictions",
+            "followupAction": "Please Correct and Resubmit",
+            "location": "Loop 2100B",
+            "possibleResolutions": "- Enrollment issue with the vendor or provider's tax ID.\n- Issue with payer-assigned login ID.\n- Incorrect/missing portal payer credentials."
+        }
+    ],
+    "x12": "ISA*00*          *00*          *ZZ*STEDI          *01*117151744      *250414*1536*^*00501*117030581*0*P*|~GS*HB*STEDI*117151744*20250414*153611*1*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*01JRTWTNAENFN42AETB158DFPQ*20250414*153611~HL*1**20*1~NM1*PR*2*CMS*****PI*CMS~HL*2*1*21*0~NM1*1P*2*Feramisco*****XX*1043410871~AAA*N**41*C~SE*8*0001~GE*1*1~IEA*1*117030581~",
+    "eligibilitySearchId": "019635cd-554e-7b23-8b35-9b010ccdf748"
+}
